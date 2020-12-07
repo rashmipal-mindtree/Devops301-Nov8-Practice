@@ -32,3 +32,8 @@ webroot: $user.home/.jenkins
 2020-12-07 00:15:19.681+0000 [id=28]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2e6c6dda: defining beans [filter,legacy]; root of factory hierarchy
 2020-12-07 00:15:19.764+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
 2020-12-07 00:15:19.845+0000 [id=19]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2020-12-07 00:41:13.775+0000 [id=265]	INFO	o.j.p.workflow.job.WorkflowRun#finish: petclinic-pipeline-as-code #8 completed: FAILURE
+2020-12-07 00:47:19.708+0000 [id=276]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2020-12-07 00:47:19.711+0000 [id=276]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms
+2020-12-07 00:51:26.757+0000 [id=286]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Fingerprint cleanup
+2020-12-07 00:51:27.467+0000 [id=286]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Fingerprint cleanup. 709 ms
