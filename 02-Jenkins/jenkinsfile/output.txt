@@ -38,3 +38,6 @@ webroot: $user.home/.jenkins
 2020-12-07 00:51:26.757+0000 [id=286]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Fingerprint cleanup
 2020-12-07 00:51:27.467+0000 [id=286]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Fingerprint cleanup. 709 ms
 2020-12-07 01:16:18.489+0000 [id=486]	INFO	o.j.p.workflow.job.WorkflowRun#finish: petclinic-pipeline-as-code #9 completed: FAILURE
+2020-12-07 01:47:19.718+0000 [id=642]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2020-12-07 01:47:19.719+0000 [id=642]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms
+2020-12-07 01:53:31.777+0000 [id=706]	INFO	o.j.p.workflow.job.WorkflowRun#finish: petclinic-pipeline-as-code #10 completed: FAILURE
