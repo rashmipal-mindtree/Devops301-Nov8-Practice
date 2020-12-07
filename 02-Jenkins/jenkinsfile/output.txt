@@ -44,3 +44,4 @@ webroot: $user.home/.jenkins
 2020-12-07 02:21:49.603+0000 [id=906]	INFO	o.j.p.workflow.job.WorkflowRun#finish: petclinic-pipeline-as-code #11 completed: FAILURE
 2020-12-07 02:47:19.709+0000 [id=952]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
 2020-12-07 02:47:19.710+0000 [id=952]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms
+2020-12-07 02:54:52.717+0000 [id=1057]	INFO	o.j.p.workflow.job.WorkflowRun#finish: petclinic-pipeline-as-code #12 completed: FAILURE
