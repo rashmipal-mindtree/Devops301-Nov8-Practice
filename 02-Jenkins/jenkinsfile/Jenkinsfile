@@ -1,47 +1,64 @@
-node {
- 
- stage('Git CheckOut') {
-    git branch: 'main', url: 'https://github.com/rashmipal-mindtree/Devops301-Nov8-Practice.git'
- }
- 
- def project_path="02-Jenkins/petclinic-code"
- 
- dir(project_path) {
- 
- stage('Maven Clean') {
-    sh 'mvn clean'
- }
- 
-  stage('Maven Compile') {
-    sh 'mvn compile'
- }
- 
- stage('Maven Testing') {
-    sh 'mvn test'
- }
- 
- stage('Maven Package') {
-    sh 'mvn package'
- }
- 
- stage('Archive Artifacts') {
-    archive 'target/*.war'
- }
+pipeline {
 
- stage('Getting Ready For Ansible') {
-    sh 'cp -rf target/*.war ../../05-Ansible/03-Tomcat/files/'
+agent any
+stages {
+stage('Git CheckOut') {
+steps {
+ git branch: 'main', url: 'https://github.com/rashmipal-mindtree/Devops301-Nov8-Practice.git'
+}
+}
+stage('Maven Clean') {
+steps {
+ sh 'mvn clean -f 02-Jenkins/petclinic-code/pom.xml'
+}
+}
+stage('Maven Compile') {
+steps {
+ sh 'mvn compile -f 02-Jenkins/petclinic-code/pom.xml'
+}
+}
+stage('Maven Testing') {
+steps {
+ sh 'mvn test -f 02-Jenkins/petclinic-code/pom.xml'
+} 
+}
+stage('Maven Package') {
+steps {
+    sh 'mvn package -f 02-Jenkins/petclinic-code/pom.xml'
+}
+}
+stage('Archive Artifacts') {
+steps {
+    archive '02-Jenkins/petclinic-code/target/*.war'
+}
+}
+stage('Getting Ready For Ansible') {
+steps {
+    sh 'cp -rf 02-Jenkins/petclinic-code/target/*.war ../../05-Ansible/03-Tomcat/files/'
     sh "echo '<h1> Task Build ID: ${env.BUILD_DISPLAY_NAME}</h1>' > ../../05-Ansible/03-Tomcat/files/jenkins.html"
- }
-  
- }
-
- def project_ansible="05-Ansible/03-Tomcat/"
- dir(project_ansible){
-  
- stage('Ansible Deployment') {
-    sh 'ansible-playbook webserver.yaml'
- }
-
- }
- 
+}
+}
+stage('Ansible Deployment') {
+steps {
+ sh '05-Ansible/03-Tomcat/ansible-playbook webserver.yaml'
+}
+}
+post {
+always{
+ echo 'This will always run'
+}
+success {
+ echo 'This will run only if successful'
+}
+failure {
+ mail bcc: '', body: "<b>Example</b><br>\n <br>Project: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: 'jenkins@mindtree.com', mimeType: 'text/html', replyTo: '', subject: "ERROR CI: Project name -> ${env.JOB_NAME}", to: "pal.rashmi@gmail.com";
+}
+unstable {
+ echo 'This will run only if the run was marked as unstable'
+}
+changed {
+ echo 'This will run only if the state of the Pipeline has changed'
+ echo 'For example, if the Pipeline was previously failing but is now successful'
+}
+}
 }
