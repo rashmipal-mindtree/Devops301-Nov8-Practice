@@ -1,0 +1,1000 @@
+ 1036  cd /opt/tomcat
+ 1037  chmod +x bin/catalina.sh
+ 1038  ./bin/catalina.sh start
+ 1039  ps -ef | grep -i tomcat
+ 1040  netstat -tulnp | grep -i 8080
+ 1041  cd ~
+ 1042  ls -lrt
+ 1043  cd .jenkins
+ 1044  ls -lrt
+ 1045  cd workspace
+ 1046  ls -lrt
+ 1047  cd 02-Jenkins
+ 1048  cd petclinic-code-tomcat-assignment
+ 1049  ls -lrt
+ 1050  cd ~
+ 1051  cd /opt/tomcat
+ 1052  ls -lrt
+ 1053  cd webapps/
+ 1054  ls -lrt
+ 1055  cd petclinic/
+ 1056  ls -lrt
+ 1057  cd ~
+ 1058  ls -lrt
+ 1059  cd devops301-mindtree-17Oct2020
+ 1060  ls -lrt
+ 1061  cd 02-Jenkins/
+ 1062  ls -lrt
+ 1063  cd petclinic-code/
+ 1064  ls
+ 1065  pwd
+ 1066  cd ~
+ 1067  cd Devops301-Nov8-Practice
+ 1068  ls -lrt
+ 1069  cd petclinic-code/
+ 1070  ls -lrt
+ 1071  pwd
+ 1072  cd ~
+ 1073  ls -lrt
+ 1074  cd devops301-mindtree-17Oct2020
+ 1075  ls -lrt
+ 1076  cd 02-Jenkins
+ 1077  ls -lrt
+ 1078  cd petclinic-code/
+ 1079  ls -lrt
+ 1080  cd ..
+ 1081  cd ~
+ 1082  cd Devops301-Nov8-Practice
+ 1083  ls -lrt
+ 1084  cd petclinic-code/
+ 1085  ls -lrt
+ 1086  rm -f target
+ 1087  rm -rf target
+ 1088  ls -lrt
+ 1089  cd ..
+ 1090  git add .
+ 1091  git commit -m "removed target"
+ 1092  git push origin main
+ 1093  ls -lrt
+ 1094  cd ~
+ 1095  cd /opt/tomcat
+ 1096  ls -lrt
+ 1097  cd webapps
+ 1098  ls -lrt
+ 1099  cd petclinic/
+ 1100  ls -lrt
+ 1101  cd ..
+ 1102  ls -lrt
+ 1103  cd ~
+ 1104  cd .jenkins/workspace/
+ 1105  ls -lrt
+ 1106  cd petclinic-code-tomcat-assignment/
+ 1107  ls -lrt
+ 1108  cd ..
+ 1109  cd  petclinic-code-freestyle
+ 1110  ls -lrt
+ 1111  cd 02-Jenkins/
+ 1112  ls -lrt
+ 1113  cd ~
+ 1114  ls -lrt
+ 1115  cd Devops301-Nov8-Practice
+ 1116  ls -lrt
+ 1117  cd petclinic-code
+ 1118  ls -lrt
+ 1119  cd ~
+ 1120  cd .jenkins/workspace
+ 1121  cd petclinic-code-tomcat-assignment/
+ 1122  ls lrt
+ 1123  ls -lrt
+ 1124  cd petclinic-code/
+ 1125  ls -lrt
+ 1126  cd target/
+ 1127  ls 
+ 1128  ls -lrt
+ 1129  cd ~
+ 1130  cd /opt/tomcat
+ 1131  ls -lrt
+ 1132  cd webapps
+ 1133  ls -lrt
+ 1134  cd ..
+ 1135  cd conf
+ 1136  ls -lrt
+ 1137  cd ..
+ 1138  cd ~
+ 1139  ls -lrt
+ 1140  cd devops301-mindtree-17Oct2020
+ 1141  ls -lrt
+ 1142  cd 03-Tomcat/
+ 1143  ls -lrt
+ 1144  pwd
+ 1145  cd ~
+ 1146  cd Devops301-Nov8-Practice
+ 1147  ls -lrt
+ 1148  cd petclinic-code/
+ 1149  ls -lrt
+ 1150  cp -rf devops301-mindtree-17Oct2020/03-Tomcat/tomcat-users.xml   /opt/tomcat/conf/tomcat-users.xml
+ 1151  cd ~
+ 1152  cp -rf devops301-mindtree-17Oct2020/03-Tomcat/tomcat-users.xml   /opt/tomcat/conf/tomcat-users.xml
+ 1153  cp -rf devops301-mindtree-17Oct2020/03-Tomcat/context.xml  /opt/tomcat/webapps/manager/META-INF/context.xml
+ 1154  netstat -tulnp | grep -i 8080
+ 1155  ps -ef | grep -i tomcat
+ 1156  vi /opt/tomcat/conf/tomcat-users.xml
+ 1157  vi /opt/tomcat/webapps/manager/META-INF/context.xml
+ 1158  cd /opt/tomcat
+ 1159  ls -lrt
+ 1160  cd webapps
+ 1161  ls -lrt
+ 1162  cd ..
+ 1163  cd ~
+ 1164  ls -lrt
+ 1165  cd devops301-mindtree-17Oct2020
+ 1166  ls -lrt
+ 1167  cd 05-Ansible/
+ 1168  ls -lrt
+ 1169  cd 03-Tomcat/
+ 1170  ls -lrt
+ 1171  cd ..
+ 1172  lks -lrt
+ 1173  ls -lrt
+ 1174  cd 04-Docker/
+ 1175  ls -lrt
+ 1176  cd 03-DockerCompose/
+ 1177  ls -lrt
+ 1178  cd Jfrog-Artifact/
+ 1179  ls -lrt
+ 1180  cd ..
+ 1181  pwd
+ 1182  cd ~
+ 1183  ls -lrt
+ 1184  cd Devops301-Nov8-Practice
+ 1185  ls -lrt
+ 1186  cp /root/devops301-mindtree-17Oct2020/04-Docker/03-DockerCompose/ .
+ 1187  cp /root/devops301-mindtree-17Oct2020/04-Docker/03-DockerCompose .
+ 1188  cp -r /root/devops301-mindtree-17Oct2020/04-Docker/03-DockerCompose .
+ 1189  ls -lrt
+ 1190  cd 03-DockerCompose/
+ 1191  ls -lrt
+ 1192  cd Jfrog-Artifact/
+ 1193  ls -lrt
+ 1194  vi docker-compose.yaml 
+ 1195  ls lrt
+ 1196  cd ..
+ 1197  ls -lrt
+ 1198  cd cd 03-DockerCompose/
+ 1199  cd cd DockerCompose/
+ 1200  cd DockerCompose/
+ 1201  cd 03-DockerCompose/
+ 1202  ls -lrt
+ 1203  cd Jfrog-Artifact/
+ 1204  vi docker-compose.yaml 
+ 1205  ls -lrt
+ 1206  docker-compose up -d
+ 1207  dcoker ps
+ 1208  docker ps
+ 1209  cd ..
+ 1210  ls -lrt
+ 1211  git add .
+ 1212  git commit -m "added jfrog"
+ 1213  git push origin main
+ 1214  cd ~
+ 1215  cd .jenkins/wordkspace
+ 1216  cd .jenkins/workspace
+ 1217  ls -lrt
+ 1218  cd petclinic-code-jfrog-assignment
+ 1219  ls -lrt
+ 1220  cd petclinic-code/
+ 1221  ls -lrt
+ 1222  cd target
+ 1223  ls -lrt
+ 1224  docker ps
+ 1225  docker-compose up
+ 1226  cd ~
+ 1227  ls -lrt
+ 1228  cd Devops301-Nov8-Practice
+ 1229  ls -lrt
+ 1230  cd 03-DockerCompose/
+ 1231  ls -lrt
+ 1232  cd Jfrog-Artifact/
+ 1233  ls
+ 1234  docker-compose up -d
+ 1235  docker ps
+ 1236  ls -lrt
+ 1237  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1238  cd Devops301-Nov8-Practice
+ 1239  ls -lrt
+ 1240  cd 03-DockerCompose/
+ 1241  ls -lrt
+ 1242  cd sonarqube/
+ 1243  ls -lrt
+ 1244  vi docker-compose.yaml 
+ 1245  cd ..
+ 1246  ls -lrt
+ 1247  cd sonarqube/
+ 1248  ls -lrt
+ 1249  docker-compose up -d
+ 1250  coker-compose ps
+ 1251  docker-compose ps
+ 1252  docker ps
+ 1253  ps -ef | grep -i jenkins
+ 1254  pwd
+ 1255  cd ~
+ 1256  cd /opt/tomcat
+ 1257  ls -lrt
+ 1258  chmod +x bin/catalina_sh
+ 1259  chmod +x bin/catalina.sh
+ 1260  ./bin/catalina.sh start
+ 1261  ps -ef | grep -i tomcat
+ 1262  cd ~
+ 1263  cd /root/Devops301-Nov8-Practice/03-DockerCompose/sonarqube
+ 1264  ls -lrt
+ 1265  docker-compose -up
+ 1266  docker-compose up
+ 1267  ls -lrt
+ 1268  cd Devops301-Nov8-Practice
+ 1269  ls -lrt
+ 1270  cd 03-DockerCompose/
+ 1271  ls -lrt
+ 1272  cd sonarqube/
+ 1273  ls -lrt
+ 1274  docker-compose up -d
+ 1275  docker-compose ps
+ 1276  docker ps
+ 1277  vi docker-compose.yaml 
+ 1278  docker ps
+ 1279  wget https://updates.jenkins.io/download/plugins/sonar/2.8.1/sonar.hpi
+ 1280  docker ps
+ 1281  docker-compose up -d
+ 1282  docker-compose ps
+ 1283  cd ..
+ 1284  ls -lrt
+ 1285  cd Jfrog-Artifact/
+ 1286  ls -lrt
+ 1287  docker-compose up -d
+ 1288  docker ps
+ 1289  ps -ef | grep -i jenkins
+ 1290  cd ..
+ 1291  cd sonarqube/
+ 1292  ls -lrt
+ 1293  docker-compose up -d
+ 1294  docker-compose ps
+ 1295  ls -=lrt
+ 1296  ls -lrt
+ 1297  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1298  docker-compose version
+ 1299  cd Devops301-Nov8-Practice
+ 1300  ls -lrt
+ 1301  cd 03-DockerCompose/
+ 1302  ls -lrt
+ 1303  cd sonarqube/
+ 1304  ls -lrt
+ 1305  docker-compose up -d
+ 1306  docker-compose ps
+ 1307  docker ps
+ 1308  netstat -tulnp
+ 1309  ls -lrt
+ 1310  vi docker-compose.yaml 
+ 1311  docker-compose up -d
+ 1312  docker-compose ps
+ 1313  docker-compose up -d
+ 1314  docker-compose ps
+ 1315  netstat -tulnp
+ 1316  docker-compose ps
+ 1317  docker ps
+ 1318  ps -a
+ 1319  docker ps -a
+ 1320  docker-compose --version
+ 1321  docker-compose up -d
+ 1322  docker-compose ps
+ 1323  docker logs sonarqube
+ 1324  docker ps
+ 1325  docker ps -a
+ 1326  docker logs
+ 1327  cat docker-compose.yaml 
+ 1328  sysctl -w vm.max_map_count=262144
+ 1329  clear
+ 1330  docker-compose up -d
+ 1331  docker-compose ps
+ 1332  ls -lrt
+ 1333  cd devops301-mindtree-17Oct2020/
+ 1334  ls -lrt
+ 1335  cd 02-Jenkins/
+ 1336  ls -lrt
+ 1337  cd jenkinsfile/
+ 1338  ls -lrt
+ 1339  cd ..
+ 1340  cd Devops301-Nov8-Practice/
+ 1341  ls -lrt
+ 1342  cp -rf root/devops301-mindtree-17Oct2020/02-Jenkins/ .
+ 1343  cp -rf root/devops301-mindtree-17Oct2020/02-Jenkins .
+ 1344  cp -rf /root/devops301-mindtree-17Oct2020/02-Jenkins/ .
+ 1345  ls -lrt
+ 1346  cp -rf /root/devops301-mindtree-17Oct2020/05-Ansible/ .
+ 1347  ls -lrt
+ 1348  cd 02-Jenkins
+ 1349  ls -lrt
+ 1350  cd jenkinsfile/
+ 1351  ls -lrt
+ 1352  vi Jenkinsfile 
+ 1353  cd ..
+ 1354  cd 05-Ansible/03-Tomcat/
+ 1355  ls -lrt
+ 1356  cd files/
+ 1357  ls -lrt
+ 1358  cd ..
+ 1359  ls -lrt
+ 1360  cd petclinic-code/
+ 1361  ls -lrt
+ 1362  cd ..
+ 1363  ls -lrt
+ 1364  cd ~
+ 1365  cd /opt/tomcat
+ 1366  ls -lrt
+ 1367  cd webapps/
+ 1368  ls -lrt
+ 1369  cd ~
+ 1370  ls -lrt
+ 1371  cd  Devops301-Nov8-Practice
+ 1372  ls -lrt
+ 1373  cd 02-Jenkins/
+ 1374  ls -lrt
+ 1375  cd petclinic-code/
+ 1376  ls -lrt
+ 1377  cd ..
+ 1378  ls -lrt
+ 1379  cd jenkinsfile/
+ 1380  ls -lrt
+ 1381  vi Jenkinsfile 
+ 1382  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1383  ansible --version
+ 1384  cd ..
+ 1385  ls -lrt
+ 1386  cd 05-Ansible/
+ 1387  ls -lrt
+ 1388  cd 01-Inventory/
+ 1389  ls -lrt
+ 1390  vim inventory 
+ 1391  ls -lrt
+ 1392  vi ansible.cfg 
+ 1393  docker ps
+ 1394  docker inspect
+ 1395  cd ..
+ 1396  ls -lrt
+ 1397  cd 05-Ansible/
+ 1398  ls -lrt
+ 1399  cd 01-Inventory/
+ 1400  ls -lrt
+ 1401  vi inventory 
+ 1402  cd ..
+ 1403  ls -lrt
+ 1404  cd -2
+ 1405  cd 02-Jenkins/
+ 1406  ls -lrt
+ 1407  cd jenkinsfile/
+ 1408  ls -lrt
+ 1409  vi Jenkinsfile 
+ 1410  cd ..
+ 1411  ls -lrt
+ 1412  git status
+ 1413  git add .
+ 1414  git commit -m "added Jenkins and Ansible"
+ 1415  git push
+ 1416  ls -lrt
+ 1417  cd 02-Jenkins/
+ 1418  ls -lrt
+ 1419  cd jenkinsfile/
+ 1420  ls -lrt
+ 1421  vi Jenkinsfile 
+ 1422  pwd
+ 1423  cd ..
+ 1424  ls -lrt
+ 1425  cd 05-Ansible/
+ 1426  ls -lrt
+ 1427  cd 03-Tomcat/
+ 1428  ls -lrt
+ 1429  docker ps
+ 1430  dcoker ps
+ 1431  docker ps -a
+ 1432  docker images
+ 1433  docker run -itd --name ansible-01 ansible-ready-image:v2 
+ 1434  docker run -itd --name ansible-03 ansible-ready-image:v2 
+ 1435  docker ps
+ 1436  docker inspect ansible-01
+ 1437  docker inspect ansible-02
+ 1438  docker inspect ansible-03
+ 1439  cd ..
+ 1440  ls -lrt
+ 1441  vi 03-Tomcat/
+ 1442  ls -lrt
+ 1443  cd 03-Tomcat/
+ 1444  ls -lrt
+ 1445  vi inventory 
+ 1446  ls -lrt
+ 1447  cd ..
+ 1448  docker ps
+ 1449  git status
+ 1450  git add .
+ 1451  git commit -m "ran containers"
+ 1452  git push
+ 1453  docker ps
+ 1454  ansible --version
+ 1455  docker kill ansible-01
+ 1456  docker kill ansible-02
+ 1457  docker kill ansible-03
+ 1458  docker ps
+ 1459  docker ps -a
+ 1460  docker ps
+ 1461  docker run -itd --name ansible-01  ansible-ready-image:v2 /bin/bash 
+ 1462  docker ps
+ 1463  docker ps -a
+ 1464  docker kill 1622cbefabaf 
+ 1465  docker rm 1622cbefabaf 
+ 1466  docker rm 25aa7f217c5c
+ 1467  docker ps -a
+ 1468  docker rm 59377c920693
+ 1469  docker ps -a
+ 1470  docker rm 59377c920693
+ 1471  docker ps -a
+ 1472  docker run -itd --name ansible-01  ansible-ready-image:v2 /bin/bash
+ 1473  docker ps
+ 1474  docker inspect ansible-01
+ 1475  docker run -itd --name ansible-02  ansible-ready-image:v2 /bin/bash
+ 1476  docker run -itd --name ansible-03  ansible-ready-image:v2 /bin/bash
+ 1477  service ssh status
+ 1478  service ssh restart
+ 1479  echo "service ssh restart" >> /root/.bashrc
+ 1480  service ssh status
+ 1481  docker ps
+ 1482  docker inspect ansible-01
+ 1483  ssh root@172.17.0.2
+ 1484  docker ps
+ 1485  docker ps -a
+ 1486  docker inspect ansible-01
+ 1487  docker inspect ansible-02
+ 1488  docker inspect ansible-04
+ 1489  docker inspect ansible-03
+ 1490  docker ps
+ 1491  git status
+ 1492  git add .
+ 1493  git commit -m "running 3 ansible containers"
+ 1494  docker run -itd --name ansible-01  ansible-ready-image:v2 /bin/bash
+ 1495  git add .
+ 1496  git commit -m "running 3 ansible containers"
+ 1497  git push
+ 1498  ls -lrt
+ 1499  docker ps
+ 1500  docker kill 71109785c2f9
+ 1501  docker rm  71109785c2f9
+ 1502  docker kill 2293ee643d66
+ 1503  docker rm  2293ee643d66
+ 1504  docker kill e1bf9f003681
+ 1505  docker rm e1bf9f003681
+ 1506  docker ps
+ 1507  docker ps -a
+ 1508  docker run -itd --name ansible-01 -p 30000:80 -p 38080:8080 ansible-ready-image:v2
+ 1509  docker ps
+ 1510  docker inspect 40b87c320690
+ 1511  ssh 172.17.0.2
+ 1512  docker ps
+ 1513  docker run -itd --name ansible-02 -p 30002:80 -p 38082:8080 ansible-ready-image:v2
+ 1514  docker run -itd --name ansible-03 -p 30003:80 -p 38083:8080 ansible-ready-image:v2
+ 1515  docker ps
+ 1516  ls -lrt
+ 1517  cd 05-Ansible/
+ 1518  ls -lrt
+ 1519  cd 03-Tomcat/
+ 1520  ls -lrt
+ 1521  vi inventory 
+ 1522  ls -lrt
+ 1523  vi webserver.yaml 
+ 1524  ls -lrt
+ 1525  cd ..
+ 1526  ls -lrt
+ 1527  cd 02-Jenkins/
+ 1528  ls -lrt
+ 1529  cd jenkinsfile/
+ 1530  ls -lrt
+ 1531  vi Jenkinsfile 
+ 1532  git status
+ 1533  docker ps
+ 1534  git add .
+ 1535  git commit -m "running 3 ansible containers in 3 ip addresses"
+ 1536  git push
+ 1537  cd /opt/SP/apps
+ 1538  cd ~
+ 1539  cd /opt/SP/apps
+ 1540  cd /opt
+ 1541  ls -lrt
+ 1542  cd tomcat/
+ 1543  ls -lrt
+ 1544  cd webapps/
+ 1545  ls -lrt
+ 1546  cd ~
+ 1547  ls -lrt
+ 1548  cd Devops301-Nov8-Practice/
+ 1549  ls -lrt
+ 1550  cd 05-Ansible/
+ 1551  ls -lrt
+ 1552  docker ps
+ 1553  cd 02-Playbook/
+ 1554  ls -lrt
+ 1555  vi webserver.yaml 
+ 1556  cd ..
+ 1557  ls -lrt
+ 1558  cd 03-Tomcat/
+ 1559  ls -lrt
+ 1560  vi webserver.yaml 
+ 1561  ansible-playbook webserver.yaml
+ 1562  history | grep -i wget
+ 1563  cd ~
+ 1564  ls -lrt
+ 1565  cd devops301-mindtree-17Oct2020/
+ 1566  ls -lrt
+ 1567  cd 05-Ansible/
+ 1568  ls -lrt
+ 1569  cd 03-Tomcat/
+ 1570  ls -lrt
+ 1571  vi webserver.yaml 
+ 1572  cd ~
+ 1573  ls -lrt
+ 1574  cd Devops301-Nov8-Practice/
+ 1575  ls -lrt
+ 1576  cd 05-Ansible/
+ 1577  ls 
+ 1578  cd 03-Tomcat/
+ 1579  ls -lrt
+ 1580  cd~
+ 1581  cd ~
+ 1582  ls -lrt
+ 1583  wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.58/bin/apache-tomcat-8.5.58.tar.gz
+ 1584  cd apache-tomcat-8.5.56
+ 1585  ls
+ 1586  cd bin
+ 1587  ls 
+ 1588  ./catalina.sh status
+ 1589  cd ~
+ 1590  ls -lrt
+ 1591  cd Devops301-Nov8-Practice
+ 1592  ls -lrt
+ 1593  cd 05-Ansible/
+ 1594  ls
+ 1595  cd 03-Tomcat/
+ 1596  ls -lrt
+ 1597  vi webserver.yaml 
+ 1598  vi webserver.yaml
+ 1599  ls -lrt
+ 1600  cd ..
+ 1601  git status
+ 1602  git add .
+ 1603  git commit -m "updated the tomcat8 in yaml file"
+ 1604  git push
+ 1605  docker ps
+ 1606  git status
+ 1607  cd 05-Ansible/
+ 1608  ls
+ 1609  cd 03-Tomcat/
+ 1610  ls
+ 1611  vi webserver.yaml 
+ 1612  ls
+ 1613  vim inventory 
+ 1614  echo "Test Jenkinsfile" > files/jenkins.html
+ 1615  ls
+ 1616  cd files/
+ 1617  ls
+ 1618  ls -lrt
+ 1619  cd ..
+ 1620  docker ps
+ 1621  history | grep -i wget
+ 1622  tar -zxvf apache-tomcat-8.5.58.tar.gz
+ 1623  wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.58/bin/apache-tomcat-8.5.58.tar.gz
+ 1624  wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.60/bin/apache-tomcat-8.5.60.tar.gz
+ 1625  ls
+ 1626  rm apache-tomcat-8.5.60.tar.gz
+ 1627  ls
+ 1628  cd ~
+ 1629  ls -lrt
+ 1630  wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.60/bin/apache-tomcat-8.5.60.tar.gz
+ 1631  ls
+ 1632  ls -lrt
+ 1633  tar -zxvf apache-tomcat-8.5.60.tar.gz
+ 1634  ls -lrt
+ 1635  cd apache-tomcat-8.5.60
+ 1636  ls -lrt
+ 1637  cd bin
+ 1638  ls
+ 1639  ./catalina.sh status
+ 1640  cd~
+ 1641  cd ~
+ 1642  ls
+ 1643  cd Devops301-Nov8-Practice
+ 1644  ls -lrt
+ 1645  cd 05-Ansible/
+ 1646  cd Tom
+ 1647  ls
+ 1648  cd 03-Tomcat/
+ 1649  ls
+ 1650  vi webserver.yaml 
+ 1651  ansible-playbook webserver.yaml
+ 1652  docker ps
+ 1653  cd ..
+ 1654  ls -lrt
+ 1655  git status
+ 1656  git add .
+ 1657  git commit -m "downloaded tomcat 8.5.60"
+ 1658  git push
+ 1659  cd ~
+ 1660  ls -lrt
+ 1661  cd SP/apps
+ 1662  docker ps
+ 1663  ls -lrt
+ 1664  cd Devops301-Nov8-Practice/
+ 1665  ls -lrt
+ 1666  cd ..
+ 1667  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1668  ls -lrt
+ 1669  cd Devops301-Nov8-Practice
+ 1670  ls -lrt
+ 1671  cd 02-Jenkins
+ 1672  ls -lrt
+ 1673  cd jenkinsfile/
+ 1674  ls -lrt
+ 1675  vi Jenkinsfile 
+ 1676  cd ..
+ 1677  ls
+ 1678  cd ..
+ 1679  ls
+ 1680  cd 02-Jenkins
+ 1681  ls -lrt
+ 1682  cd petclinic-code/
+ 1683  ls -lrt
+ 1684  pwd
+ 1685  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1686  ls -lrt
+ 1687  cd Devops301-Nov8-Practice
+ 1688  ls -lrt
+ 1689  cd 02-Jenkins/
+ 1690  ls
+ 1691  cd jenkinsfile/
+ 1692  ls -lrt
+ 1693  vi Jenkinsfile 
+ 1694  docker ps
+ 1695  cd ..
+ 1696  docker run -itd --name ansible-01 -p 30000:80 -p 38080:8080 ansible-ready-image:v2
+ 1697  docker ps -a
+ 1698  docker rm 40b87c320690 3ed61eb974fc 1fd39e3562c5
+ 1699  docker ps -a
+ 1700  docker run -itd --name ansible-01 -p 30000:80 -p 38080:8080 ansible-ready-image:v2
+ 1701  docker run -itd --name ansible-02 -p 30002:80 -p 38082:8080 ansible-ready-image:v2
+ 1702  docker run -itd --name ansible-03 -p 30003:80 -p 38083:8080 ansible-ready-image:v2
+ 1703  docker ps
+ 1704  ls -lrt
+ 1705  cd 02-Jenkins/
+ 1706  ls -lrt
+ 1707  cd jenkinsfile/
+ 1708  ls -lrt
+ 1709  vi Jenkinsfile 
+ 1710  cd ..
+ 1711  git status
+ 1712  git add .
+ 1713  git commit -m "updated git repo"
+ 1714  git push
+ 1715  ls -ltr
+ 1716  cd 02-Jenkins/
+ 1717  ls
+ 1718  cd jenkinsfile/
+ 1719  ls -ltr
+ 1720  vi Jenkinsfile 
+ 1721  clear
+ 1722  vi Jenkinsfile 
+ 1723  cd ..
+ 1724  cd Devops301-Nov8-Practice/
+ 1725  ls -lrt
+ 1726  git status
+ 1727  git add .
+ 1728  git commit -m "updated wevserver yaml file"
+ 1729  git push
+ 1730  ls -ltr
+ 1731  cd 02-Jenkins/
+ 1732  ls
+ 1733  cd jenkinsfile/
+ 1734  ls
+ 1735  vi Jenkinsfile 
+ 1736  git status
+ 1737  cd ..
+ 1738  git add .
+ 1739  git commit -m "added a brace in Jenkinsfile"
+ 1740  git push
+ 1741  ls
+ 1742  vi 02-Jenkins/
+ 1743  cd je
+ 1744  ls
+ 1745  cd 02-Jenkins/
+ 1746  ls
+ 1747  cd jenkinsfile/
+ 1748  ls
+ 1749  vi Jenkinsfile 
+ 1750  cd ..
+ 1751  ls
+ 1752  cd petclinic-code/
+ 1753  ls
+ 1754  cd ..
+ 1755  ls
+ 1756  ls -ltr
+ 1757  cd devops301-mindtree-17Oct2020/
+ 1758  ls -ltr
+ 1759  cd 02-Jenkins/
+ 1760  ls -ltr
+ 1761  cd petclinic-code/
+ 1762  ls
+ 1763  cd ~
+ 1764  cd /opt/tomcat/webapps
+ 1765  ls -ltr
+ 1766  pwd
+ 1767  cd ~
+ 1768  cd Devops301-Nov8-Practice/
+ 1769  ls -ltr
+ 1770  cd petclinic-code/
+ 1771  ls -ltr
+ 1772  cd ..
+ 1773  cd 02-Jenkins/
+ 1774  ls
+ 1775  cd jenkinsfile/
+ 1776  ls
+ 1777  vi Jenkinsfile 
+ 1778  cd ..
+ 1779  cd ~
+ 1780  cd Devops301-Nov8-Practice/
+ 1781  ls -ltr
+ 1782  cd 05-Ansible/
+ 1783  cd 03-Tomcat/
+ 1784  cd files
+ 1785  ls 
+ 1786  ls -ltr
+ 1787  vi jenkins.html 
+ 1788  ls -ltr
+ 1789  cd ..
+ 1790  ls -ltr
+ 1791  cd 02-Jenkins/
+ 1792  ls -ltr
+ 1793  cd jenkinsfile/
+ 1794  ls -ltr
+ 1795  vi Jenkinsfile 
+ 1796  cd ..
+ 1797  git status
+ 1798  git add .
+ 1799  git commit -m "updated jenkins file"
+ 1800  git push
+ 1801  ls
+ 1802  cd 02-Jenkins/
+ 1803  ls
+ 1804  cd petclinic-code/
+ 1805  ls
+ 1806  cd src
+ 1807  ls
+ 1808  cd ..
+ 1809  ls -ltr
+ 1810  cd ../../05-Ansible/
+ 1811  ls -ltr
+ 1812  cd 03-Tomcat/
+ 1813  ls -ltr
+ 1814  cd files
+ 1815  ls -ltr
+ 1816  vi jenkins.html 
+ 1817  cd ..
+ 1818  cd 03-Tomcat/
+ 1819  ls
+ 1820  cd ~
+ 1821  cd /opt/tomcat/
+ 1822  cd webapps/
+ 1823  ls -ltr
+ 1824  cd ~
+ 1825  pwd
+ 1826  ls -ltr
+ 1827  cd Devops301-Nov8-Practice/
+ 1828  ls -ltr
+ 1829  cd 05-Ansible/
+ 1830  cd ..
+ 1831  cd 02-Jenkins/
+ 1832  ls -ltr
+ 1833  vi jenkinsfile/
+ 1834  clear
+ 1835  ls
+ 1836  cd jenkinsfile/
+ 1837  ls -ltr
+ 1838  vi Jenkinsfile 
+ 1839  cd 05-Ansible/03-Tomcat/
+ 1840  cd ../../05-Ansible/03-Tomcat/
+ 1841  ls -ltr
+ 1842  vi webserver.yaml 
+ 1843  cd ~
+ 1844  docker ps -a
+ 1845  docker rm ce665ce34435 f71ba202e7c9 ad15ed240504
+ 1846  docker kill ce665ce34435 f71ba202e7c9 ad15ed240504
+ 1847  docker rm ce665ce34435 f71ba202e7c9 ad15ed240504
+ 1848  docker ps -a
+ 1849  docker run -itd --name ansible-01 -p 30000:80 -p 38080:8080 ansible-ready-image:v2
+ 1850  docker run -itd --name ansible-02 -p 30002:80 -p 38082:8080 ansible-ready-image:v2
+ 1851  docker run -itd --name ansible-03 -p 30003:80 -p 38083:8080 ansible-ready-image:v2
+ 1852  docker ps
+ 1853  cd Devops301-Nov8-Practice/
+ 1854  ls -ltr
+ 1855  cd 02-Jenkins/
+ 1856  ls
+ 1857  cd jenkinsfile/
+ 1858  ls
+ 1859  vi Jenkinsfile 
+ 1860  cd ..
+ 1861  git status
+ 1862  git add .
+ 1863  git commit -m "update the path in ansible deployment stage"
+ 1864  git push
+ 1865  cd 02-Jenkins/
+ 1866  ls
+ 1867  cd jenkin'
+ 1868  exit
+ 1869  exit
+ 1870  docker ps
+ 1871  ls -ltr
+ 1872  vi output.txt 
+ 1873  clear
+ 1874  ls -ltr
+ 1875  cd Devops301-Nov8-Practice/
+ 1876  ls
+ 1877  cd 02-Jenkins/
+ 1878  ls -ltr
+ 1879  cd jenkinsfile/
+ 1880  ls -ltr
+ 1881  vi Jenkinsfile 
+ 1882  cd ..
+ 1883  git status
+ 1884  git add .
+ 1885  git commit -m "updated the path of ansible deployment"
+ 1886  git push origin
+ 1887  docker ps
+ 1888  ls -ltr
+ 1889  cd 02-Jenkins/
+ 1890  ls -ltr
+ 1891  cd jenkins
+ 1892  cd jenkinsfile/
+ 1893  ls
+ 1894  vi Jenkinsfile 
+ 1895  git status
+ 1896  cd ..
+ 1897  git add .
+ 1898  git commit -m "fixed correct path of ansible deployment"
+ 1899  git push
+ 1900  docker ps
+ 1901  ls -ltr
+ 1902  cd 05-Ansible/
+ 1903  ls -ltr
+ 1904  cd 03-Tomcat/
+ 1905  ls -ltr
+ 1906  vi webserver.yaml 
+ 1907  docker ps
+ 1908  docker ps -a
+ 1909  docker inspect 51ea72b3e503
+ 1910  docker ps
+ 1911  docker inspect 1b5d224bc4df
+ 1912  docker ps
+ 1913  docker inspect 15da40674d10
+ 1914  docker ps
+ 1915  docker inspect 51ea72b3e503
+ 1916  service ssh status
+ 1917  service ssh restart
+ 1918  echo "service ssh restart" >> /root/.bashrc
+ 1919  docker ps
+ 1920  docker inspect ansible-R1
+ 1921  docker inspect ansible-01
+ 1922  ssh root@172.17.0.2
+ 1923  docker ps
+ 1924  ls -lrt
+ 1925  vi webserver.yaml 
+ 1926  cd ..
+ 1927  ls -lrt
+ 1928  cd 02-Jenkins/
+ 1929  ls -lrt
+ 1930  vi README.md 
+ 1931  docker inspect ansible-02
+ 1932  ssh root@172.17.0.3
+ 1933  docker inspect ansible-03
+ 1934  ssht root@172.17.0.4
+ 1935  ssh root@172.17.0.4
+ 1936  cd ..
+ 1937  ls -ltr
+ 1938  cd 05-Ansible/
+ 1939  ls
+ 1940  cd 02-Playbook/
+ 1941  ls 
+ 1942  vi inventory 
+ 1943  cd ..
+ 1944  ls -ltr
+ 1945  cd 02-Playbook/
+ 1946  ls
+ 1947  vi webserver.yaml 
+ 1948  cd ..
+ 1949  ls
+ 1950  cd 03-Tomcat/
+ 1951  ls
+ 1952  pwd
+ 1953  cd files
+ 1954  ls
+ 1955  cd ..
+ 1956  vi ansible.cfg 
+ 1957  ls
+ 1958  vi inventory 
+ 1959  ls
+ 1960  git status
+ 1961  cd templates/
+ 1962  ls
+ 1963  cd ..
+ 1964  ls
+ 1965  cd ..
+ 1966  ls
+ 1967  cd 02-Jenkins/
+ 1968  ls
+ 1969  cd jenkinsfile/
+ 1970  ls
+ 1971  vi Jenkinsfile 
+ 1972  cat Jenkinsfile 
+ 1973  ls
+ 1974  vi Jenkinsfile 
+ 1975  ls
+ 1976  rm Jenkinsfile 
+ 1977  ls
+ 1978  vi Jenkinsfile
+ 1979  ls
+ 1980  vi Jenkinsfile
+ 1981  ls
+ 1982  rm Q
+ 1983  ls
+ 1984  git status
+ 1985  git add .
+ 1986  cd ..
+ 1987  git add .
+ 1988  git commit -m "updated Jenkins file"
+ 1989  git push 
+ 1990  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1991  ls -lrt
+ 1992  cd Devops301-Nov8-Practice/
+ 1993  ls
+ 1994  cd petclinic-code/
+ 1995  ls
+ 1996  ls -lrt
+ 1997  ls 
+ 1998  cd ..
+ 1999  cd /opt/tomcat/webapps
+ 2000  ls
+ 2001  ls -lrt
+ 2002  cd ~
+ 2003  docker ps
+ 2004  docker ps -a
+ 2005  cd Devops301-Nov8-Practice/
+ 2006  ls
+ 2007  cd petclinic-code/
+ 2008  ls
+ 2009  cd ~
+ 2010  cd /opt/tomcat
+ 2011  ls -ltr
+ 2012  cd conf
+ 2013  ls
+ 2014  vi tomcat-users.xml
+ 2015  cd ..
+ 2016  ls
+ 2017  cd webapps/
+ 2018  ls
+ 2019  cd magaer/META-INF/context.xml
+ 2020  cd manager/META-INF/
+ 2021  ls
+ 2022  vi context.xml 
+ 2023  cd~
+ 2024  cd ~
+ 2025  cd /opt/tomcat/
+ 2026  chmod +x bin/catalina.sh
+ 2027  ./bin/catalina.sh start
+ 2028  ps -ef | grep -i tomcat
+ 2029  netstat -tulnp | grep -i 8080
+ 2030  cd ..
+ 2031  cd ~
+ 2032  cd Devops301-Nov8-Practice/
+ 2033  history -> hostory.txt
+ 2034  ls
+ 2035  history > history.txt
