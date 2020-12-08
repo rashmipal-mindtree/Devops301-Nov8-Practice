@@ -24,12 +24,12 @@ steps {
 }
 stage('Maven Package') {
 steps {
-    sh 'mvn package -f 02-Jenkins/petclinic-code/pom.xml'
+ sh 'mvn package -f 02-Jenkins/petclinic-code/pom.xml'
 }
 }
 stage('Archive Artifacts') {
 steps {
-    archive '02-Jenkins/petclinic-code/target/*.war'
+ archive '02-Jenkins/petclinic-code/target/*.war'
 }
 }
 stage('Getting Ready For Ansible') {
@@ -41,6 +41,7 @@ steps {
 stage('Ansible Deployment') {
 steps {
  sh '05-Ansible/03-Tomcat/ansible-playbook webserver.yaml'
+}
 }
 }
 post {
