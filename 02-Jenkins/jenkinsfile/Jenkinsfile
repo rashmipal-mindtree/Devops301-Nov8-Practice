@@ -29,13 +29,13 @@ steps {
 }
 stage('Archive Artifacts') {
 steps {
- archive '02-Jenkins/petclinic-code/target/*.war'
+ archiveArtifacts '02-Jenkins/petclinic-code/target/*.war'
 }
 }
 stage('Getting Ready For Ansible') {
 steps {
-    sh 'cp -rf 02-Jenkins/petclinic-code/target/*.war ../../05-Ansible/03-Tomcat/files/'
-    sh "echo '<h1> Task Build ID: ${env.BUILD_DISPLAY_NAME}</h1>' > ../../05-Ansible/03-Tomcat/files/jenkins.html"
+    sh 'cp -rf 02-Jenkins/petclinic-code/target/*.war 05-Ansible/03-Tomcat/files/'
+    sh "echo '<h1> Task Build ID: ${env.BUILD_DISPLAY_NAME}</h1>' > 05-Ansible/03-Tomcat/files/jenkins.html"
 }
 }
 stage('Ansible Deployment') {
