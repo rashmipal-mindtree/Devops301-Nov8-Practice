@@ -40,7 +40,8 @@ steps {
 }
 stage('Ansible Deployment') {
 steps {
- sh '05-Ansible/03-Tomcat/ ansible-playbook webserver.yaml'
+sh 'cd 05-Ansible/03-Tomcat/'
+ sh 'ansible-playbook webserver.yaml'
 }
 }
 }
